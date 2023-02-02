@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  background: linear-gradient(to right, rgba(2,151,210,1) 0%, rgba(16,119,167,1) 18%, rgba(42,61,88,1) 43%, rgba(42,61,88,1) 100%);
+}
+
+body {
+  width: 1024px;
+  margin: 35px auto;
+  color: #fff;
+}
+
+header {
+  color: #eee;
+  font-size: 2.5em;
+  border-bottom: 1px solid #444;
+  margin-bottom: 1.5em;
+  padding-bottom: .5em;
+  line-height: 1.5em;
+}
+
+header h1 {
+  text-shadow: #000 2px 2px 0;
+}
+
+header h1 em {
+  color: #999;
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: .50em;
+  text-shadow: #000 1px 1px 0;
+}
+
+#winners {
+  margin-left: 1em;
+  padding-top: 1em;
+  font-size: 1.25em;
+  float: left;
+  width: 35%;
+}
+
+#winners ol {
+  margin-top: 1em;
+  color: #999;
+}
+
+#winners ol li {
+  line-height: 1.75em;
+  color: white;
+}
+
+#chooser {
+  font-size: 3.5em;
+  float: left;
+  width: 60%;
+}
+
+#chooser h1 {
+  margin-bottom: 1em;
+  color: white;
+}
+
+img {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+button#chooseit {
+  font-weight: bold;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid red;
+  border-top: 1px solid red;
+  font-size: .5em;
+  color: #ddd;
+  padding: 15px 30px;
+  background: red;
+}
+
+button#chooseit:hover {
+  color: #fff;
+}
